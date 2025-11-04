@@ -1,7 +1,10 @@
+import { Container } from "./styled";
+import TodoList from "./todo-list/TodoList";
+
 export default function Home() {
   return (
-    <main>
-      <h1>Welcome to my Next.js app!</h1>
-    </main>
+    <Container>
+      <TodoList />
+    </Container>
   );
 }
